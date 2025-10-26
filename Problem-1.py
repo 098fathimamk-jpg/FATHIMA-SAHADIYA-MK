@@ -29,3 +29,4 @@ if __name__ == "__main__":
     operation = input("Enter operation (add/subtract/multiply/divide): ")
     calc = Calculator(a, b, operation)
     print("Result:", calc.calculate())
+
