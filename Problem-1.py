@@ -22,11 +22,12 @@ class Calculator:
         else:
             return "Error: Unknown operation"
 
-# Example usage below allows user input
+
 if __name__ == "__main__":
     a = float(input("Enter first number (a): "))
     b = float(input("Enter second number (b): "))
     operation = input("Enter operation (add/subtract/multiply/divide): ")
     calc = Calculator(a, b, operation)
     print("Result:", calc.calculate())
+
 
